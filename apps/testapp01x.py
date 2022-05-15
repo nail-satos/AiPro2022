@@ -4,9 +4,9 @@ import streamlit as st
 # testapp01(課題2)
 def app():
     st.title('Streamlitの標準UIを試そう')
-    st.caption('初級(必須)：1～2種類のUIを実装した')
-    st.caption('中級(任意)：3～5種類のUIを実装した')
-    st.caption('上級(任意)：6種類以上のUIを実装した')
+    st.caption('初級(必須)：1～2種類のUIを実装する')
+    st.caption('中級(任意)：3～5種類のUIを実装する')
+    st.caption('上級(任意)：6種類以上のUIを実装する')
 
     st.subheader('課題の進め方')
     st.write('Streamlitの公式ドキュメント「API reference」')
