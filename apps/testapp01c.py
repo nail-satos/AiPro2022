@@ -3,7 +3,7 @@ import streamlit as st
 
 # testapp01(初級)
 def app():
-    st.title('簡易計算機')
+    st.title('簡易計算機(初級)')
     st.caption('値を入力')
     n1 = st.number_input(label='数値1', value=1)
     n2 = st.number_input(label='数値2', value=1)
